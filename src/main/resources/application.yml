@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/mystudy?characterEncoding=UTF-8&serverTimezone=UTC
-    username: root
-    password: root
+    url: jdbc:mariadb://freelec-springboot2-webservice.cujr0knvcvjp.ap-northeast-2.rds.amazonaws.com:3306/freelec_springboot2_webservice?characterEncoding=UTF-8&serverTimezone=UTC
+    username: liljay
+    password: dudqk9696
 
   jpa:
     hibernate:
