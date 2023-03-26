@@ -9,5 +9,4 @@ class MariaDbPracticeApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

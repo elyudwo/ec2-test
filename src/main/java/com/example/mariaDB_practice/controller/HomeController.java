@@ -15,6 +15,4 @@ public class HomeController {
     public String responseBodyString() {
         return "hello!";
     }
-
-
 }
