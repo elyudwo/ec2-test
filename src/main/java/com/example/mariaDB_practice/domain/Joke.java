@@ -1,5 +1,6 @@
 package com.example.mariaDB_practice.domain;
 
+import lombok.Builder;
 import lombok.Getter;
 
 import javax.persistence.Entity;
@@ -8,13 +9,17 @@ import javax.persistence.Id;
 
 @Entity
 @Getter
-public class Reservation {
+@Builder
+public class Joke {
     @Id
     @GeneratedValue
-    private String id;
+    private Long id;
 
-    private String name;
-    private String number;
-    private String phoneNumber;
+    private String ask;
+    private String answer;
+    private int year;
 
+    public Joke() {
+
+    }
 }
